@@ -1,0 +1,94 @@
+Error occured at: 12/06/2021 13:23:30:
+Incorrect syntax near '@Time'.
+
+Error occured at: 12/06/2021 13:24:40:
+The parameterized query '(@orderID int,@itemID int,@amount int,@Time datetime,@status big' expects the parameter '@status', which was not supplied.
+
+Error occured at: 12/06/2021 13:26:12:
+Implicit conversion from data type datetime to int is not allowed. Use the CONVERT function to run this query.
+
+Error occured at: 12/06/2021 13:27:13:
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK__ORDERITEM__item___787EE5A0". The conflict occurred in database "dbchapeau202105", table "dbo.MENUITEM", column 'item_id'.
+The statement has been terminated.
+
+Error occured at: 12/06/2021 13:28:02:
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK__ORDERITEM__item___787EE5A0". The conflict occurred in database "dbchapeau202105", table "dbo.MENUITEM", column 'item_id'.
+The statement has been terminated.
+
+Error occured at: 12/06/2021 17:16:38:
+Invalid column name 'table_nr'.
+Invalid column name 'table_id'.
+Invalid column name 'table_nr'.
+Invalid column name 'occupied'.
+Invalid column name 'reservedFROM'.
+
+Error occured at: 12/06/2021 17:16:39:
+System.NullReferenceException: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+   ב-  ChapeauDAL.TableDAO.ReadTable(DataTable dataTable) ב- C:\Users\adir7\Desktop\‏‏Chapeau-Master(V1)\ChapeauDAL\TableDAO.cs:שורה 36
+   ב-  ChapeauDAL.TableDAO.GetTable(Int32 tableNr) ב- C:\Users\adir7\Desktop\‏‏Chapeau-Master(V1)\ChapeauDAL\TableDAO.cs:שורה 25
+
+Error occured at: 12/06/2021 17:18:16:
+Invalid column name 'table_nr'.
+Invalid column name 'table_id'.
+Invalid column name 'table_nr'.
+Invalid column name 'occupiedFROM'.
+
+Error occured at: 12/06/2021 17:18:16:
+System.NullReferenceException: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+   ב-  ChapeauDAL.TableDAO.ReadTable(DataTable dataTable) ב- C:\Users\adir7\Desktop\‏‏Chapeau-Master(V1)\ChapeauDAL\TableDAO.cs:שורה 36
+   ב-  ChapeauDAL.TableDAO.GetTable(Int32 tableNr) ב- C:\Users\adir7\Desktop\‏‏Chapeau-Master(V1)\ChapeauDAL\TableDAO.cs:שורה 25
+
+Error occured at: 12/06/2021 23:55:53:
+issue with adding
+Error occured at: 12/06/2021 23:58:41:
+issue with adding
+Error occured at: 13/06/2021 00:58:55:
+System.ArgumentException: עמודה 'occupied' אינה שייכת לטבלה Table.
+   ב-  System.Data.DataRow.GetDataColumn(String columnName)
+   ב-  System.Data.DataRow.get_Item(String columnName)
+   ב-  ChapeauDAL.TableDAO.ReadTable(DataTable dataTable) ב- C:\Users\adir7\Desktop\‏‏Chapeau-Master(V1)\ChapeauDAL\TableDAO.cs:שורה 41
+   ב-  ChapeauDAL.TableDAO.GetTable(Int32 tableNr) ב- C:\Users\adir7\Desktop\‏‏Chapeau-Master(V1)\ChapeauDAL\TableDAO.cs:שורה 25
+
+Error occured at: 13/06/2021 18:31:18:
+please select an item beofre adding
+Error occured at: 13/06/2021 19:27:58:
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK__ORDERITEM__order__778AC167". The conflict occurred in database "dbchapeau202105", table "dbo.ORDER", column 'order_id'.
+The statement has been terminated.
+
+Error occured at: 13/06/2021 20:04:11:
+Cannot insert explicit value for identity column in table 'ORDER' when IDENTITY_INSERT is set to OFF.
+
+Error occured at: 13/06/2021 20:40:19:
+Must declare the scalar variable "@TableID".
+
+Error occured at: 13/06/2021 21:39:18:
+One item at a time please
+Error occured at: 13/06/2021 22:24:26:
+One item at a time, please
+Error occured at: 20-Jun-21 8:41:25 PM:
+One item at a time, please
+Error occured at: 22-Jun-21 9:42:09 PM:
+Must declare the scalar variable "@employee_id".
+
+Error occured at: 22-Jun-21 9:42:22 PM:
+Must declare the scalar variable "@employee_id".
+
+Something went wrong while loging in
+Error occured at: 22-Jun-21 10:14:40 PM:
+One item at a time, please
+Something went wrong while loging in
+Error occured at: 24/06/2021 01:50:25:
+Incorrect syntax near 'TABLE'.
+
+Error occured at: 24/06/2021 02:36:31:
+Incorrect syntax near 'TABLE'.
+
+Error occured at: 25/06/2021 08:33:01:
+One item at at time, please
+Error occured at: 25/06/2021 08:36:15:
+Something went wrong while removing the item
+Error occured at: 25/06/2021 08:37:43:
+Something went wrong while adding an item
+Error occured at: 25/06/2021 08:41:15:
+Incorrect syntax near 'TABLE'.
+
